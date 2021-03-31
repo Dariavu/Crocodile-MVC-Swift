@@ -8,30 +8,40 @@
 
 import UIKit
 
+/*
+ 1. + Create new folder "Teams"
+ 2. + Create VC "TeamViewController"
+ 
+ STORYBOARD:
+ 3. + Create view controller in the storyboard, associate it with corresponding class
+ 4. + Make the VC in the storyboard as initial
+ 5. + Make the screen embedded in navigation
+ 6. + Give it the title "Teams"
+ 7. + Add button at the bottom and make it look like in alias "Continue"
+ 8. + Add table view and make constraints (top, left, right): 0 to superview, bottom: 0 to button
+ 9. + Create folder "Cells" and create cell "TeamCell"
+ 10. + Add label and create IBOutlet
+ 
+ CODE:
+ 11. + Create Model "Team" and give it the "name", "points" properties
+ 12. + Create a property in TeamViewController: private var teams = [Team]()
+ 13. + In setupUI function add two random(as you wish) teams to "teams" list
+ 14. + Setup table view in TeamViewController
+ 15. + Number of rows = number of teams
+ 16. + In TeamCell create function setupCell(team: Team), this function should set the text to the label
+ 16. in cellForRowAt create cell, call setupCell function and pass the corresponding team
+ 17. For now, do not create + button
+ 
+ */
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        Game.shared.getCards()
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
 }
 

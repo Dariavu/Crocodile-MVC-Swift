@@ -1,0 +1,208 @@
+{
+  "cards": [
+    {
+        "nouns": [
+            {
+                "name": "Пятно",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Табурет",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Линейка",
+                "points": 3,
+                "type": "noun",
+            }
+        ],
+        "verbs": [
+            {
+                "name": "Забираться",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Уходить",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Закрывать",
+                "points": 3,
+                "type": "verb"
+            }
+        ],
+        "person": {
+            "name": "Шерлок Холмс",
+            "points": 5,
+            "type": "person"
+        },
+        "country": {
+            "name": "Нью-Йорк",
+            "points": 4,
+            "type": "country"
+        },
+        "proverb": {
+            "name": "Дареному коню в зубы не смотрят",
+            "points": 5,
+            "type": "proverb"
+        }
+    },
+    {
+        "nouns": [
+            {
+                "name": "WOW",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Табурет",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Линейка",
+                "points": 3,
+                "type": "noun",
+            }
+        ],
+        "verbs": [
+            {
+                "name": "Забираться",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Уходить",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Закрывать",
+                "points": 3,
+                "type": "verb"
+            }
+        ],
+        "person": {
+            "name": "Шерлок Холмс",
+            "points": 5,
+            "type": "person"
+        },
+        "country": {
+            "name": "Нью-Йорк",
+            "points": 4,
+            "type": "country"
+        },
+        "proverb": {
+            "name": "Дареному коню в зубы не смотрят",
+            "points": 5,
+            "type": "proverb"
+        }
+    },
+    {
+        "nouns": [
+            {
+                "name": "NOT WOW",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Табурет",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Линейка",
+                "points": 3,
+                "type": "noun",
+            }
+        ],
+        "verbs": [
+            {
+                "name": "Забираться",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Уходить",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Закрывать",
+                "points": 3,
+                "type": "verb"
+            }
+        ],
+        "person": {
+            "name": "Шерлок Холмс",
+            "points": 5,
+            "type": "person"
+        },
+        "country": {
+            "name": "Нью-Йорк",
+            "points": 4,
+            "type": "country"
+        },
+        "proverb": {
+            "name": "Дареному коню в зубы не смотрят",
+            "points": 5,
+            "type": "proverb"
+        }
+    },
+    {
+        "nouns": [
+            {
+                "name": "NOT WOW",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Табурет",
+                "points": 3,
+                "type": "noun",
+            },
+            {
+                "name": "Линейка",
+                "points": 3,
+                "type": "noun",
+            }
+        ],
+        "verbs": [
+            {
+                "name": "Забираться",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Уходить",
+                "points": 3,
+                "type": "verb"
+            },
+            {
+                "name": "Закрывать",
+                "points": 3,
+                "type": "verb"
+            }
+        ],
+        "person": {
+            "name": "Шерлок Холмс",
+            "points": 5,
+            "type": "person"
+        },
+        "country": {
+            "name": "Нью-Йорк",
+            "points": 4,
+            "type": "country"
+        },
+        "proverb": {
+            "name": "Дареному коню в зубы не смотрят",
+            "points": 5,
+            "type": "proverb"
+        }
+    },
+  ]
+}

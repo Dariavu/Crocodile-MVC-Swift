@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C71EE9D8DBF847501E5CB1 /* Pods_Crocodile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521436C52A29D96B867C27E7 /* Pods_Crocodile.framework */; };
+		570E498C25D4161C00CB5D35 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E498B25D4161C00CB5D35 /* TeamViewController.swift */; };
+		570E499025D417FF00CB5D35 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E498E25D417FF00CB5D35 /* TeamCell.swift */; };
+		570E499125D417FF00CB5D35 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570E498F25D417FF00CB5D35 /* TeamCell.xib */; };
+		570E499325D4194B00CB5D35 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E499225D4194B00CB5D35 /* Team.swift */; };
+		570E499625D425D200CB5D35 /* AddTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570E499425D425D200CB5D35 /* AddTeamCell.swift */; };
+		570E499725D425D200CB5D35 /* AddTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570E499525D425D200CB5D35 /* AddTeamCell.xib */; };
+		572465BB25DE9803004F793F /* FinalResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572465BA25DE9803004F793F /* FinalResultViewController.swift */; };
+		572465BF25DE9B27004F793F /* FinalResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572465BD25DE9B27004F793F /* FinalResultCell.swift */; };
+		572465C025DE9B27004F793F /* FinalResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572465BE25DE9B27004F793F /* FinalResultCell.xib */; };
+		575DB28125D6F905001A5C09 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DB28025D6F905001A5C09 /* Game.swift */; };
+		57909DED25D9B7EF00BCCE94 /* CurrentTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57909DEC25D9B7EF00BCCE94 /* CurrentTeamViewController.swift */; };
+		57A8F93825D1A39D008EB9E9 /* QuestionWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8F93625D1A39D008EB9E9 /* QuestionWordCell.swift */; };
+		57A8F93925D1A39D008EB9E9 /* QuestionWordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A8F93725D1A39D008EB9E9 /* QuestionWordCell.xib */; };
+		57C7F7BF25DB1AB200D19774 /* RatingTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7F7BD25DB1AB200D19774 /* RatingTeamCell.swift */; };
+		57C7F7C025DB1AB200D19774 /* RatingTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C7F7BE25DB1AB200D19774 /* RatingTeamCell.xib */; };
+		57E8A94025CD38A30089CC9E /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E8A93E25CD38A30089CC9E /* ResultCell.swift */; };
+		57E8A94125CD38A30089CC9E /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E8A93F25CD38A30089CC9E /* ResultCell.xib */; };
+		C94EC3BE25C6AB5C006F10F1 /* WordsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EC3BD25C6AB5C006F10F1 /* WordsAPI.swift */; };
+		C94EC3C025C6B712006F10F1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EC3BF25C6B712006F10F1 /* Card.swift */; };
+		C94EC3C525C6BF69006F10F1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EC3C425C6BF69006F10F1 /* CardView.swift */; };
+		C94EC3C725C6BF70006F10F1 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94EC3C625C6BF70006F10F1 /* CardView.xib */; };
+		C94EC3CA25C6CD56006F10F1 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EC3C925C6CD56006F10F1 /* Int+Extension.swift */; };
+		C94EC3CC25C6CF26006F10F1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EC3CB25C6CF26006F10F1 /* ResultViewController.swift */; };
 		C96879C325C6A6090093B134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96879C225C6A6090093B134 /* AppDelegate.swift */; };
 		C96879C525C6A6090093B134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96879C425C6A6090093B134 /* SceneDelegate.swift */; };
-		C96879C725C6A6090093B134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96879C625C6A6090093B134 /* ViewController.swift */; };
+		C96879C725C6A6090093B134 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96879C625C6A6090093B134 /* HomeViewController.swift */; };
 		C96879CA25C6A6090093B134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96879C825C6A6090093B134 /* Main.storyboard */; };
 		C96879CC25C6A60C0093B134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96879CB25C6A60C0093B134 /* Assets.xcassets */; };
 		C96879CF25C6A60C0093B134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96879CD25C6A60C0093B134 /* LaunchScreen.storyboard */; };
+		C96879D925C6A6B50093B134 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96879D825C6A6B50093B134 /* Word.swift */; };
+		C96879DF25C6AA780093B134 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = C96879DE25C6AA780093B134 /* cards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521436C52A29D96B867C27E7 /* Pods_Crocodile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crocodile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570E498B25D4161C00CB5D35 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		570E498E25D417FF00CB5D35 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		570E498F25D417FF00CB5D35 /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		570E499225D4194B00CB5D35 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		570E499425D425D200CB5D35 /* AddTeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamCell.swift; sourceTree = "<group>"; };
+		570E499525D425D200CB5D35 /* AddTeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTeamCell.xib; sourceTree = "<group>"; };
+		572465BA25DE9803004F793F /* FinalResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResultViewController.swift; sourceTree = "<group>"; };
+		572465BD25DE9B27004F793F /* FinalResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResultCell.swift; sourceTree = "<group>"; };
+		572465BE25DE9B27004F793F /* FinalResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalResultCell.xib; sourceTree = "<group>"; };
+		575DB28025D6F905001A5C09 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		57909DEC25D9B7EF00BCCE94 /* CurrentTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTeamViewController.swift; sourceTree = "<group>"; };
+		57A8F93625D1A39D008EB9E9 /* QuestionWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionWordCell.swift; sourceTree = "<group>"; };
+		57A8F93725D1A39D008EB9E9 /* QuestionWordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionWordCell.xib; sourceTree = "<group>"; };
+		57C7F7BD25DB1AB200D19774 /* RatingTeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTeamCell.swift; sourceTree = "<group>"; };
+		57C7F7BE25DB1AB200D19774 /* RatingTeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingTeamCell.xib; sourceTree = "<group>"; };
+		57E8A93E25CD38A30089CC9E /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		57E8A93F25CD38A30089CC9E /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		6E20A129D19CE7050B5F5C44 /* Pods-Crocodile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crocodile.release.xcconfig"; path = "Target Support Files/Pods-Crocodile/Pods-Crocodile.release.xcconfig"; sourceTree = "<group>"; };
+		B42017FEF6F9971E2C6F72E7 /* Pods-Crocodile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crocodile.debug.xcconfig"; path = "Target Support Files/Pods-Crocodile/Pods-Crocodile.debug.xcconfig"; sourceTree = "<group>"; };
+		C94EC3BD25C6AB5C006F10F1 /* WordsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsAPI.swift; sourceTree = "<group>"; };
+		C94EC3BF25C6B712006F10F1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C94EC3C425C6BF69006F10F1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C94EC3C625C6BF70006F10F1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		C94EC3C925C6CD56006F10F1 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		C94EC3CB25C6CF26006F10F1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C96879BF25C6A6090093B134 /* Crocodile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crocodile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96879C225C6A6090093B134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C96879C425C6A6090093B134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C96879C625C6A6090093B134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96879C625C6A6090093B134 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C96879C925C6A6090093B134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C96879CB25C6A60C0093B134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96879CE25C6A60C0093B134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96879D025C6A60C0093B134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96879D825C6A6B50093B134 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		C96879DE25C6AA780093B134 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,168 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C71EE9D8DBF847501E5CB1 /* Pods_Crocodile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B9ADCD4D118A657C9EC9C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521436C52A29D96B867C27E7 /* Pods_Crocodile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		570E498A25D415D400CB5D35 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				570E498D25D417D100CB5D35 /* Cells */,
+				570E498B25D4161C00CB5D35 /* TeamViewController.swift */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		570E498D25D417D100CB5D35 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				570E498E25D417FF00CB5D35 /* TeamCell.swift */,
+				570E498F25D417FF00CB5D35 /* TeamCell.xib */,
+				570E499425D425D200CB5D35 /* AddTeamCell.swift */,
+				570E499525D425D200CB5D35 /* AddTeamCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		572465B625DE9770004F793F /* Ending */ = {
+			isa = PBXGroup;
+			children = (
+				572465BC25DE9AFE004F793F /* Cells */,
+				572465BA25DE9803004F793F /* FinalResultViewController.swift */,
+			);
+			path = Ending;
+			sourceTree = "<group>";
+		};
+		572465BC25DE9AFE004F793F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				572465BD25DE9B27004F793F /* FinalResultCell.swift */,
+				572465BE25DE9B27004F793F /* FinalResultCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		57909DEB25D9B7D600BCCE94 /* CurrentTeam */ = {
+			isa = PBXGroup;
+			children = (
+				57C7F7BC25DB1A3000D19774 /* Cells */,
+				57909DEC25D9B7EF00BCCE94 /* CurrentTeamViewController.swift */,
+			);
+			path = CurrentTeam;
+			sourceTree = "<group>";
+		};
+		57A8F93325D1A324008EB9E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57A8F93625D1A39D008EB9E9 /* QuestionWordCell.swift */,
+				57A8F93725D1A39D008EB9E9 /* QuestionWordCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		57C7F7BC25DB1A3000D19774 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57C7F7BD25DB1AB200D19774 /* RatingTeamCell.swift */,
+				57C7F7BE25DB1AB200D19774 /* RatingTeamCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		57E8A93D25CD38920089CC9E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57E8A93E25CD38A30089CC9E /* ResultCell.swift */,
+				57E8A93F25CD38A30089CC9E /* ResultCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9DBD0F2FCA5EA882C6BC75F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B42017FEF6F9971E2C6F72E7 /* Pods-Crocodile.debug.xcconfig */,
+				6E20A129D19CE7050B5F5C44 /* Pods-Crocodile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C94EC3BC25C6AB43006F10F1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C94EC3BD25C6AB5C006F10F1 /* WordsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C94EC3C125C6B9FD006F10F1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C96879C825C6A6090093B134 /* Main.storyboard */,
+				570E498A25D415D400CB5D35 /* Teams */,
+				57909DEB25D9B7D600BCCE94 /* CurrentTeam */,
+				C94EC3CD25C6D3F0006F10F1 /* Home */,
+				C94EC3CE25C6D3FC006F10F1 /* Result */,
+				572465B625DE9770004F793F /* Ending */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C94EC3C325C6BF50006F10F1 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				C94EC3C425C6BF69006F10F1 /* CardView.swift */,
+				C94EC3C625C6BF70006F10F1 /* CardView.xib */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		C94EC3C825C6CD48006F10F1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C94EC3C925C6CD56006F10F1 /* Int+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C94EC3CD25C6D3F0006F10F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				57A8F93325D1A324008EB9E9 /* Cells */,
+				C94EC3C325C6BF50006F10F1 /* CardView */,
+				C96879C625C6A6090093B134 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C94EC3CE25C6D3FC006F10F1 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				57E8A93D25CD38920089CC9E /* Cells */,
+				C94EC3CB25C6CF26006F10F1 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		C96879B625C6A6090093B134 = {
 			isa = PBXGroup;
 			children = (
 				C96879C125C6A6090093B134 /* Crocodile */,
 				C96879C025C6A6090093B134 /* Products */,
+				9DBD0F2FCA5EA882C6BC75F8 /* Pods */,
+				3B9ADCD4D118A657C9EC9C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +261,37 @@
 		C96879C125C6A6090093B134 /* Crocodile */ = {
 			isa = PBXGroup;
 			children = (
+				C96879DE25C6AA780093B134 /* cards.json */,
 				C96879C225C6A6090093B134 /* AppDelegate.swift */,
 				C96879C425C6A6090093B134 /* SceneDelegate.swift */,
-				C96879C625C6A6090093B134 /* ViewController.swift */,
-				C96879C825C6A6090093B134 /* Main.storyboard */,
+				C94EC3C825C6CD48006F10F1 /* Helpers */,
+				C94EC3BC25C6AB43006F10F1 /* API */,
+				C96879D625C6A6210093B134 /* Model */,
+				C94EC3C125C6B9FD006F10F1 /* Modules */,
+				C96879D725C6A63F0093B134 /* Supporting files */,
+			);
+			path = Crocodile;
+			sourceTree = "<group>";
+		};
+		C96879D625C6A6210093B134 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96879D825C6A6B50093B134 /* Word.swift */,
+				C94EC3BF25C6B712006F10F1 /* Card.swift */,
+				570E499225D4194B00CB5D35 /* Team.swift */,
+				575DB28025D6F905001A5C09 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C96879D725C6A63F0093B134 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				C96879CB25C6A60C0093B134 /* Assets.xcassets */,
 				C96879CD25C6A60C0093B134 /* LaunchScreen.storyboard */,
 				C96879D025C6A60C0093B134 /* Info.plist */,
 			);
-			path = Crocodile;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C96879D325C6A60C0093B134 /* Build configuration list for PBXNativeTarget "Crocodile" */;
 			buildPhases = (
+				644DBDE7C51E341904A9C5BB /* [CP] Check Pods Manifest.lock */,
 				C96879BB25C6A6090093B134 /* Sources */,
 				C96879BC25C6A6090093B134 /* Frameworks */,
 				C96879BD25C6A6090093B134 /* Resources */,
+				6D7542DBAEAAEB8118E35412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +354,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572465C025DE9B27004F793F /* FinalResultCell.xib in Resources */,
 				C96879CF25C6A60C0093B134 /* LaunchScreen.storyboard in Resources */,
+				C96879DF25C6AA780093B134 /* cards.json in Resources */,
+				570E499725D425D200CB5D35 /* AddTeamCell.xib in Resources */,
+				C94EC3C725C6BF70006F10F1 /* CardView.xib in Resources */,
+				57A8F93925D1A39D008EB9E9 /* QuestionWordCell.xib in Resources */,
+				57C7F7C025DB1AB200D19774 /* RatingTeamCell.xib in Resources */,
+				570E499125D417FF00CB5D35 /* TeamCell.xib in Resources */,
 				C96879CC25C6A60C0093B134 /* Assets.xcassets in Resources */,
+				57E8A94125CD38A30089CC9E /* ResultCell.xib in Resources */,
 				C96879CA25C6A6090093B134 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		644DBDE7C51E341904A9C5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crocodile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7542DBAEAAEB8118E35412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crocodile/Pods-Crocodile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crocodile/Pods-Crocodile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crocodile/Pods-Crocodile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C96879BB25C6A6090093B134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96879C725C6A6090093B134 /* ViewController.swift in Sources */,
+				570E499625D425D200CB5D35 /* AddTeamCell.swift in Sources */,
+				57A8F93825D1A39D008EB9E9 /* QuestionWordCell.swift in Sources */,
+				570E498C25D4161C00CB5D35 /* TeamViewController.swift in Sources */,
+				570E499325D4194B00CB5D35 /* Team.swift in Sources */,
+				C94EC3BE25C6AB5C006F10F1 /* WordsAPI.swift in Sources */,
+				C96879C725C6A6090093B134 /* HomeViewController.swift in Sources */,
+				C94EC3C025C6B712006F10F1 /* Card.swift in Sources */,
+				572465BB25DE9803004F793F /* FinalResultViewController.swift in Sources */,
+				C94EC3CA25C6CD56006F10F1 /* Int+Extension.swift in Sources */,
+				570E499025D417FF00CB5D35 /* TeamCell.swift in Sources */,
+				C96879D925C6A6B50093B134 /* Word.swift in Sources */,
+				C94EC3CC25C6CF26006F10F1 /* ResultViewController.swift in Sources */,
 				C96879C325C6A6090093B134 /* AppDelegate.swift in Sources */,
+				57909DED25D9B7EF00BCCE94 /* CurrentTeamViewController.swift in Sources */,
+				C94EC3C525C6BF69006F10F1 /* CardView.swift in Sources */,
+				57E8A94025CD38A30089CC9E /* ResultCell.swift in Sources */,
+				57C7F7BF25DB1AB200D19774 /* RatingTeamCell.swift in Sources */,
+				572465BF25DE9B27004F793F /* FinalResultCell.swift in Sources */,
 				C96879C525C6A6090093B134 /* SceneDelegate.swift in Sources */,
+				575DB28125D6F905001A5C09 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +578,12 @@
 		};
 		C96879D425C6A60C0093B134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42017FEF6F9971E2C6F72E7 /* Pods-Crocodile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AAXBU9249F;
-				INFOPLIST_FILE = Crocodile/Info.plist;
+				INFOPLIST_FILE = "Crocodile/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +597,12 @@
 		};
 		C96879D525C6A60C0093B134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E20A129D19CE7050B5F5C44 /* Pods-Crocodile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AAXBU9249F;
-				INFOPLIST_FILE = Crocodile/Info.plist;
+				INFOPLIST_FILE = "Crocodile/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
